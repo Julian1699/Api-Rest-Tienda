@@ -27,7 +27,5 @@ public class Producto {
     private int stock;
     @Column(name = "fecha", nullable = false)
     private String fecha;
-    @OneToMany(mappedBy = "producto")
-    private List<Venta> ventas;
 
 }
